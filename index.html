@@ -3,77 +3,73 @@
     <!--This is my first HTML attempt
     As such I will be commenting my thoughts throughout the document-->
     <head>
-        
+        <link rel="stylesheet" href="styles.css">
     </head>
+    <!--Realized head should have metadata not things like titles-->
     <body>
-        <header>
-            <div id="about-link">
-                <a href="">About</a>
+        <!--All content should be in the body-->
+        <div class="fixed-header">
+            <div class="header-container">
+                <nav>
+                        <a href="" class="about-link">
+                            About
+                        </a>
+                        <a href="" class="store-link">
+                            Store
+                        </a>
+                        <a href="" class="gmail-link">
+                            Gmail
+                        </a>
+                        <a href="" class="images-link">
+                            Images
+                        </a>
+                        <button class="sign-in-btn">
+                            Sign In
+                        </button>
+                </nav>
             </div>
-            <div id="store-link">
-                <a href="">Store</a>
-            </div>
-            <div id="gmail-link">
-                <a href="">Gmail</a>
-            </div>
-            <div id="images-link">
-                <a href="">Images</a>
-            </div>
-            <div id="sign-in">
-                <button id="sign-in-btn">Sign In</button>
-            </div>
-        </header>
+        </div>
         <main>
-            <div id="google-logo-div">
-                <a href="" id="google-logo-anchor">
-                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" id="google-logo">
-                </a>
-            </div>
-            <div id="search-bar-div">
-                <input type="search" id="search-bar">
-            </div>
-            <div id="google-search-div">
-                <button id="google-search-btn">
-                    Google Search
-                </button>
-            </div>
-            <div id="luck-div">
-                <button id="lucky-btn">
-                    I'm Feeling Lucky
-                </button>
+            <div class="main-content-container">
+                <div class="google-logo-div">
+                    <a href="" class="google-logo-anchor">
+                        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="google-logo">
+                    </a>
+                </div>
+                <div class="search-bar-div">
+                    <input type="search" class="search-bar">
+                </div>
+                <div class="below-search-container">
+                    <button class="google-search-btn">
+                        Google Search
+                    </button>
+                    <button class="lucky-btn">
+                        I'm Feeling Lucky
+                    </button>
+                </div>
             </div>
         </main>
-        <footer>
-            <div id="advert-div">
-                <a href="" id="advert-link">
+        <div class="fixed-footer">
+            <div class="footer-container">
+                <a href="" class="advert-link">
                     Advertising
                 </a>
-            </div>
-            <div id="business-div">
-                <a href="" id="business-link">
+                <a href="" class="business-link">
                     Business
                 </a>
-            </div>
-            <div id="how-search-div">
-                <a href="" id="how-search-link">
+                <a href="" class="how-search-link">
                     How Search Works
                 </a>
-            </div>
-            <div id="privacy-div">
-                <a href="" id="privacy-link">
+                <a href="" class="privacy-link">
                     Privacy
                 </a>
-            </div>
-            <div id="terms-div">
-                <a href="" id="terms-link">
+                <a href="" class="terms-link">
                     Terms
                 </a>
-            </div>
-            <div id="settings-div">
-                <a href="" id="settings-link">
+                <a href="" class="settings-link">
                     Settings
                 </a>
             </div>
-        </footer>
+        </div>
     </body>
 </html>

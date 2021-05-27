@@ -1,0 +1,41 @@
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;
+    padding: 10px 0px;
+}
+
+.fixed-header {
+    top: 0;
+}
+
+.fixed-footer{
+    bottom: 0;
+}
+
+.header-container {
+    width: 100%;
+    margin: 0 0;
+}
+
+.store-link{
+    padding-right: 50%;
+}
+
+nav a {
+    color: black;
+    padding: 7px 25px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+.main-content-container{
+    width: 100%;
+    position: fixed;
+    margin-left: 500px;
+    margin-right: auto;
+    margin-top: 200px;
+    display: block;
+}
+
+
