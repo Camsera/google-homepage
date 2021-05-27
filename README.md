@@ -1,0 +1,1 @@
+This is my first attempt at creating a website landing page from scratch. This will be a clone of the google landing page.
